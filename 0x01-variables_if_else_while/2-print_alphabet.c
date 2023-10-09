@@ -5,10 +5,13 @@
  *
  * Return: Always 0 (Success)
  **/
-int main(void){
+int main(void)
+{
 	char letter = 'a';
+
 	do{
-		(putchar(letter), letter ++);
+		(putchar(letter);
+		letter++;
 	} while (letter <= 'z');
 	putchar('\n');
 	return 0;
