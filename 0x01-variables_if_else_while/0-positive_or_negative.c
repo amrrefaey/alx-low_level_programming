@@ -7,7 +7,7 @@
  *
  * Description: This program generates a random integer
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -17,11 +17,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("is positive\n");
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("is zero\n");
+		printf( "%d is zero\n", n);
 	else
-		printf("nigative\n");
+		printf("%d is nigative\n", n);
 
 	return (0);
 }
