@@ -12,9 +12,7 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		char digit = '0' + i;
-
-		putchar(digit);
+		putchar( i + '0');
 	}
 	putchar('\n');
 	return (0);
