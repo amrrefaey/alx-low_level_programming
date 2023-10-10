@@ -8,13 +8,16 @@
 
 int main(void)
 {
-	int i;
-	
-	for (i = 48; i < 58; i++)
+	int c;
+	char i;
+
+	for (c = 0; c <= 9; c++)
 	{
-		putchar(i);
+		char h = '0' + c;
+
+		putchar(h);
 	}
-	for (i = 97; i < 103; i++)
+	for (i = 'a'; i <= 'f'; i++)
 	{
 		putchar(i);
 	}
