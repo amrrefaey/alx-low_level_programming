@@ -1,8 +1,8 @@
 #include "main.h"
-
 /*
- * times_table - Prints the multiplication tabel for number 9 starting with 0.
  *
+ * times_table - Prints the 9 times table starting with 0.
+ * followd by a new line
  */
 void times_table(void)
 {
