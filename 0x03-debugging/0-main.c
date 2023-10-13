@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * main - Testing a function
+ * main - Entry point for testing the positive_or_negative function with 0
  *
  * Return: Always 0 (success)
  */
