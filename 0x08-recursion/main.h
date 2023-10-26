@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 int is_prime_recursive(int n, int divisor);
+int check_pal(char *s, int i, int len);
+int _strlen_recursion(char *s);
+int wildcmp(char *s1, char *s2);
 int find_sqrt(int num, int guess);
 void _puts_recursion(char *s);
 int _putchar(char c);
