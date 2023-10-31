@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+int count_words(char *str);
+char **strtow(char *str);
 void simple_print_buffer(char *buffer, unsigned int size);
 char *create_array(unsigned int size, char c);
 int _putchar(char c);
